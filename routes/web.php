@@ -20,3 +20,12 @@ Route::get('/', function () {
 Route::get('homepage', function () {
     return view('homepage');
 });
+
+Route::get('library', function () {
+    return view('library');
+});
+
+Route::get('login', function () {
+    return view('login');
+});
+
