@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('library', function () {
     return view('library');
 });
+
+Route::get('login', function () {
+    return view('login');
+});
